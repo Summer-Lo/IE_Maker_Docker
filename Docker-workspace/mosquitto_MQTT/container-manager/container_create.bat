@@ -1,0 +1,1 @@
+docker run --name mosquitto_MQTT -v E:\Docker-workspace\mosquitto_MQTT\:/workspace -it -p 1883:1883 -p 9001:9001 -v E:\Docker-workspace\mosquitto_MQTT\mosquitto.conf:/mosquitto/config/mosquitto.conf -v /mosquitto/data -v /mosquitto/log eclipse-mosquitto:2.0.15

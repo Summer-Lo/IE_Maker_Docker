@@ -1,0 +1,12 @@
+{
+    "name": "node-red-project",
+    "description": "A Node-RED Project",
+    "version": "0.0.1",
+    "private": true,
+    "dependencies": {
+        "node-red-contrib-google-sheets": "~1.1.2",
+        "node-red-contrib-postgrestor-next": "~0.0.9-c",
+        "node-red-contrib-re-postgres": "~0.3.3",
+        "node-red-dashboard": "~3.5.0"
+    }
+}

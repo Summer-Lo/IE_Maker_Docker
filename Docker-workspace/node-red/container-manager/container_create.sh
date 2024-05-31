@@ -1,0 +1,1 @@
+docker run --name nodered -v E:\Docker-workspace\node-red:/workspace -it -p 1880:1880 -v myNodeREDdata:/data  nodered/node-red:3.0.2-18

@@ -1,0 +1,4093 @@
+[
+    {
+        "id": "335f453491ca8af1",
+        "type": "tab",
+        "label": "IE_Maker_Lab_self-service_Rack",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "d620af3bbc13e015",
+        "type": "tab",
+        "label": "IE_Maker_Lab_admin_return",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "cd90e2cba1790c5e",
+        "type": "junction",
+        "z": "335f453491ca8af1",
+        "x": 116,
+        "y": 234,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2fc3daf6.85d3e6",
+        "type": "ui_group",
+        "name": "Maker Information",
+        "tab": "5932206ccfe69b0d",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "832046a5bf18ae8b",
+        "type": "ui_group",
+        "d": true,
+        "name": "Equipment",
+        "tab": "5932206ccfe69b0d",
+        "order": 3,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "2d8e37b63cb66187",
+        "type": "gauth",
+        "name": "http-node-red2sheet@ie-maker-lab-equipment-booking.iam.gserviceaccount.com"
+    },
+    {
+        "id": "7a9c06414cedd106",
+        "type": "ui_group",
+        "name": "IoT-Arduino",
+        "tab": "5932206ccfe69b0d",
+        "order": 4,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "dae9bc772b6e23c2",
+        "type": "ui_group",
+        "name": "IoT-ESP32",
+        "tab": "5932206ccfe69b0d",
+        "order": 5,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "883118e663edca81",
+        "type": "ui_group",
+        "name": "IoT-Starter_Kit",
+        "tab": "5932206ccfe69b0d",
+        "order": 7,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "d15e4d320617bc0a",
+        "type": "ui_group",
+        "name": "IoT-Accessories",
+        "tab": "5932206ccfe69b0d",
+        "order": 8,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "e2834b18a72d1c25",
+        "type": "ui_group",
+        "name": "IoT-Sensor",
+        "tab": "5932206ccfe69b0d",
+        "order": 6,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "ee9cfcc5.d0ae1",
+        "type": "ui_group",
+        "name": "Confirm",
+        "tab": "5932206ccfe69b0d",
+        "order": 11,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "b73179e3f159c985",
+        "type": "ui_group",
+        "name": "Electronic-Testing",
+        "tab": "5932206ccfe69b0d",
+        "order": 9,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "f9931f35acec8bcd",
+        "type": "ui_group",
+        "name": "Mechanic-Hand_Tools",
+        "tab": "5932206ccfe69b0d",
+        "order": 10,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "d8aa4ae1761b7c80",
+        "type": "ui_group",
+        "name": "Tools_class",
+        "tab": "5932206ccfe69b0d",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "5932206ccfe69b0d",
+        "type": "ui_tab",
+        "name": "IE_Maker_Lab_self-service_Rack",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "4cf119f01f23d3f7",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-light",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#0094CE",
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#1bbfff",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#0094ce",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "403a2551653cf37b",
+        "type": "ui_group",
+        "name": "Admin Information",
+        "tab": "50924d691b234f5d",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "50924d691b234f5d",
+        "type": "ui_tab",
+        "name": "IE_Maker_Lab_admin_return",
+        "icon": "dashboard",
+        "order": 2,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "d37f48e234e2b6f4",
+        "type": "postgresDB",
+        "name": "postgres@192.168.50.128:5432/booking",
+        "host": "192.168.50.128",
+        "hostFieldType": "str",
+        "port": "5432",
+        "portFieldType": "num",
+        "database": "booking",
+        "databaseFieldType": "str",
+        "ssl": "false",
+        "sslFieldType": "bool",
+        "max": "10",
+        "maxFieldType": "num",
+        "min": "1",
+        "minFieldType": "num",
+        "idle": "1000",
+        "idleFieldType": "num",
+        "connectionTimeout": "10000",
+        "connectionTimeoutFieldType": "num",
+        "user": "postgres",
+        "userFieldType": "str",
+        "password": "Sum2023mer!",
+        "passwordFieldType": "str"
+    },
+    {
+        "id": "4f1630d727134753",
+        "type": "ui_group",
+        "name": "Maker_Information",
+        "tab": "50924d691b234f5d",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "96d623a785695a1d",
+        "type": "ui_form",
+        "z": "335f453491ca8af1",
+        "name": "",
+        "label": "Fill in your ID",
+        "group": "2fc3daf6.85d3e6",
+        "order": 1,
+        "width": 4,
+        "height": 1,
+        "options": [
+            {
+                "label": "Student/staff ID",
+                "value": "id",
+                "type": "text",
+                "required": true,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "id": ""
+        },
+        "payload": "",
+        "submit": "Submit",
+        "cancel": "Clear",
+        "topic": "",
+        "x": 130,
+        "y": 60,
+        "wires": [
+            [
+                "eb7ab80d0b77f831"
+            ]
+        ]
+    },
+    {
+        "id": "eb7ab80d0b77f831",
+        "type": "change",
+        "z": "335f453491ca8af1",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "id",
+                "pt": "flow",
+                "to": "payload.id",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 380,
+        "y": 60,
+        "wires": [
+            [
+                "e1df109d25602391"
+            ]
+        ]
+    },
+    {
+        "id": "e1df109d25602391",
+        "type": "switch",
+        "z": "335f453491ca8af1",
+        "name": "Null?",
+        "property": "id",
+        "propertyType": "flow",
+        "rules": [
+            {
+                "t": "nnull"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 530,
+        "y": 60,
+        "wires": [
+            [
+                "67952ac068185a17"
+            ]
+        ]
+    },
+    {
+        "id": "0bc5ef6b180fbe0b",
+        "type": "ui_ui_control",
+        "z": "335f453491ca8af1",
+        "name": "",
+        "x": 900,
+        "y": 60,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "5779751bd470fae7",
+        "type": "ui_button",
+        "z": "335f453491ca8af1",
+        "name": "",
+        "group": "2fc3daf6.85d3e6",
+        "order": 1,
+        "width": 2,
+        "height": 1,
+        "passthru": false,
+        "label": "Reset",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "Red",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "",
+        "topicType": "str",
+        "x": 110,
+        "y": 140,
+        "wires": [
+            [
+                "68d1e31371db4753",
+                "bcd72efc56678770"
+            ]
+        ]
+    },
+    {
+        "id": "68d1e31371db4753",
+        "type": "change",
+        "z": "335f453491ca8af1",
+        "name": "Clear ID",
+        "rules": [
+            {
+                "t": "set",
+                "p": "id",
+                "pt": "flow",
+                "to": "",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "date",
+                "pt": "flow",
+                "to": "",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "time",
+                "pt": "flow",
+                "to": "",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "qty",
+                "pt": "flow",
+                "to": "0",
+                "tot": "num"
+            },
+            {
+                "t": "set",
+                "p": "equipment",
+                "pt": "flow",
+                "to": "",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "class",
+                "pt": "flow",
+                "to": "",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 380,
+        "y": 140,
+        "wires": [
+            [
+                "d497ebb1eea4e636"
+            ]
+        ]
+    },
+    {
+        "id": "d497ebb1eea4e636",
+        "type": "change",
+        "z": "335f453491ca8af1",
+        "name": "Hide Tabs",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{\"group\":{\"show\":[],\"hide\":[\"IE_Maker_Lab_self-service_Rack_Confirm\",\"IE_Maker_Lab_self-service_Rack_Tools_class\",\"IE_Maker_Lab_self-service_Rack_IoT-Arduino\",\"IE_Maker_Lab_self-service_Rack_IoT-ESP32\",\"IE_Maker_Lab_self-service_Rack_IoT-Sensor\",\"IE_Maker_Lab_self-service_Rack_IoT-Starter_Kit\",\"IE_Maker_Lab_self-service_Rack_IoT-Accessories\",\"IE_Maker_Lab_self-service_Rack_Electronic-Testing\",\"IE_Maker_Lab_self-service_Rack_Mechanic-Hand_Tools\"]}}",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 700,
+        "y": 140,
+        "wires": [
+            [
+                "0bc5ef6b180fbe0b"
+            ]
+        ]
+    },
+    {
+        "id": "67952ac068185a17",
+        "type": "change",
+        "z": "335f453491ca8af1",
+        "name": "Show Tool Class",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{\"group\":{\"show\":[\"IE_Maker_Lab_self-service_Rack_Tools_class\"],\"hide\":[]}}",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 720,
+        "y": 60,
+        "wires": [
+            [
+                "0bc5ef6b180fbe0b"
+            ]
+        ]
+    },
+    {
+        "id": "89d73426e9a1da99",
+        "type": "change",
+        "z": "335f453491ca8af1",
+        "name": "set class",
+        "rules": [
+            {
+                "t": "set",
+                "p": "class",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 280,
+        "y": 240,
+        "wires": [
+            [
+                "44cb815a4ed19945"
+            ]
+        ]
+    },
+    {
+        "id": "4ea888f9e6984651",
+        "type": "ui_button",
+        "z": "335f453491ca8af1",
+        "name": "",
+        "group": "832046a5bf18ae8b",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Laser Cutting and Engraving",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "Laser_Cutting_and_Engraving",
+        "payloadType": "str",
+        "topic": "payload",
+        "topicType": "msg",
+        "x": 180,
+        "y": 720,
+        "wires": [
+            [
+                "49d94114ebfd4b7e"
+            ]
+        ]
+    },
+    {
+        "id": "1b5518a4b76d2040",
+        "type": "ui_ui_control",
+        "z": "335f453491ca8af1",
+        "name": "",
+        "x": 1160,
+        "y": 240,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a0acc67a2b066ad5",
+        "type": "change",
+        "z": "335f453491ca8af1",
+        "name": "Show Equipments",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{\"group\":{\"show\":[\"IE_Maker_Lab_self-service_Rack_IoT-Arduino\",\"IE_Maker_Lab_self-service_Rack_IoT-ESP32\",\"IE_Maker_Lab_self-service_Rack_IoT-Sensor\",\"IE_Maker_Lab_self-service_Rack_IoT-Starter_Kit\",\"IE_Maker_Lab_self-service_Rack_IoT-Accessories\"],\"hide\":[\"IE_Maker_Lab_self-service_Rack_Electronic-Testing\",\"IE_Maker_Lab_self-service_Rack_Mechanic-Hand_Tools\",\"IE_Maker_Lab_self-service_Rack_Confirm\"]}}",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 950,
+        "y": 240,
+        "wires": [
+            [
+                "1b5518a4b76d2040"
+            ]
+        ]
+    },
+    {
+        "id": "d0b46efa3d11d686",
+        "type": "ui_button",
+        "z": "335f453491ca8af1",
+        "name": "",
+        "group": "832046a5bf18ae8b",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "UV Printer",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "UV_Printer",
+        "payloadType": "str",
+        "topic": "payload",
+        "topicType": "msg",
+        "x": 130,
+        "y": 780,
+        "wires": [
+            [
+                "49d94114ebfd4b7e"
+            ]
+        ]
+    },
+    {
+        "id": "b7ad6347f914072b",
+        "type": "ui_button",
+        "z": "335f453491ca8af1",
+        "name": "",
+        "group": "832046a5bf18ae8b",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "CNC Router",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "CNC_Router",
+        "payloadType": "str",
+        "topic": "payload",
+        "topicType": "msg",
+        "x": 130,
+        "y": 840,
+        "wires": [
+            [
+                "49d94114ebfd4b7e"
+            ]
+        ]
+    },
+    {
+        "id": "9dce9b6e6b583e06",
+        "type": "ui_button",
+        "z": "335f453491ca8af1",
+        "name": "",
+        "group": "832046a5bf18ae8b",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Wire EDM",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "Wire_EDM",
+        "payloadType": "str",
+        "topic": "payload",
+        "topicType": "msg",
+        "x": 130,
+        "y": 900,
+        "wires": [
+            [
+                "49d94114ebfd4b7e"
+            ]
+        ]
+    },
+    {
+        "id": "49de7d7da6fae0d4",
+        "type": "ui_button",
+        "z": "335f453491ca8af1",
+        "name": "",
+        "group": "832046a5bf18ae8b",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Drilling Machine",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "Drilling_Machine",
+        "payloadType": "str",
+        "topic": "payload",
+        "topicType": "msg",
+        "x": 140,
+        "y": 960,
+        "wires": [
+            [
+                "49d94114ebfd4b7e"
+            ]
+        ]
+    },
+    {
+        "id": "b0e0a3c5f240f873",
+        "type": "ui_button",
+        "z": "335f453491ca8af1",
+        "name": "",
+        "group": "832046a5bf18ae8b",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "3D Printer",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "3D_Printer",
+        "payloadType": "str",
+        "topic": "payload",
+        "topicType": "msg",
+        "x": 120,
+        "y": 1020,
+        "wires": [
+            [
+                "49d94114ebfd4b7e"
+            ]
+        ]
+    },
+    {
+        "id": "1aea9a21b30134e7",
+        "type": "switch",
+        "z": "335f453491ca8af1",
+        "name": "",
+        "property": "id",
+        "propertyType": "flow",
+        "rules": [
+            {
+                "t": "neq",
+                "v": "null",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 770,
+        "y": 840,
+        "wires": [
+            [
+                "0810ea787682a35f"
+            ]
+        ]
+    },
+    {
+        "id": "66ecfce421f390b1",
+        "type": "GSheet",
+        "z": "335f453491ca8af1",
+        "creds": "2d8e37b63cb66187",
+        "method": "append",
+        "action": "",
+        "sheet": "1q53PI-57nyMrhYFhfXgtWUL_3dsByka8IiiLXKnqIfM",
+        "cells": "equipment!A1:E24",
+        "flatten": true,
+        "name": "",
+        "x": 670,
+        "y": 520,
+        "wires": [
+            [
+                "22871ddaf0ebca89"
+            ]
+        ]
+    },
+    {
+        "id": "f767726ace66e7ae",
+        "type": "function",
+        "z": "335f453491ca8af1",
+        "name": "insert record",
+        "func": "var id = flow.get(\"id\");\nvar date = flow.get(\"date\");\nvar time = flow.get(\"time\");\nvar Toolclass = flow.get(\"class\");\nvar equipment = flow.get(\"equipment\");\nvar qty = flow.get(\"qty\");\nvar status = \"borrow\";\nvar sheetInsert = \"\";\n\nif (Toolclass == 1) {\n    Toolclass = \"IoT\";\n} else if (Toolclass == 2) {\n    Toolclass = \"Electronic\";\n} else if (Toolclass == 3) {\n    Toolclass = \"Mechanic\";\n}\n//sheetInsert = \"{\\\"ID\\\":\\\"\" + id + \"\\\"\";\n//sheetInsert = sheetInsert + \", \\\"Date\\\":\\\"\" + date + \"\\\"\";\n//sheetInsert = sheetInsert + \", \\\"Time\\\":\\\"\" + time + \"\\\"\";\n//sheetInsert = sheetInsert + \", \\\"Equipment\\\":\\\"\" + equipment + \"\\\"\";\n//sheetInsert = sheetInsert + \", \\\"Qty\\\":\\\"\" + qty + \"\\\"\";\n//sheetInsert = sheetInsert + \"}\";\n\n//msg.payload = sheetInsert\nmsg.payload = [id, date, time, Toolclass, equipment, qty, status];\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 470,
+        "y": 520,
+        "wires": [
+            [
+                "66ecfce421f390b1"
+            ]
+        ]
+    },
+    {
+        "id": "f2bd344fda132c13",
+        "type": "function",
+        "z": "335f453491ca8af1",
+        "name": "current time",
+        "func": "var message = {};\nvar time = 0;\nvar date = 0;\nvar year = 0;\nvar month = 0;\nvar day = 0;\n// Get Time and convertit to hours (time[0]) and minutes (time[1])\ntime = new Date().toISOString();\ndate = time.split(\"T\")[0];\nyear = date.split(\"-\")[0];\nmonth = date.split(\"-\")[1];\nday = date.split(\"-\")[2];\ntime = time.split(\"T\")[1].split(\".\")[0];\ntime = time.split(\":\");\n// Adjust time to our timezone and crops it to 24h\ntime[0] = (parseInt(time[0]) + 8)\nif (time[0] >= 25) {\n    time[0] -= 24;\n    day += 1\n}\n// Adjust time to spell \"9\" instead of \"09\" \n// and e.g. \"12 Uhr\" instead of \"12 Uhr 0\"\ntime[1] = parseInt(time[1])\nif (time[1] === 0) {\n    time[1] = \"\";\n}\nflow.set(\"date\", year + \"-\" + month + \"-\" + day);\nflow.set(\"time\", time[0] + \":\" + time[1] + \":\" + time[2] + \".000+08:00\");\n// Create text refered to ppython datetime format \"%Y-%m-%d %H:%M:%S.%f%z\"\nmessage.payload = \"Date: \" + year + \"-\" + month + \"-\" + day + \"\\nTime: \"+ time[0]+\":\"+ time[1]+\":\" + time[2] +\".000+08:00\";\nreturn message;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 350,
+        "y": 660,
+        "wires": [
+            [
+                "ead8744fe9b9d2f3"
+            ]
+        ]
+    },
+    {
+        "id": "ead8744fe9b9d2f3",
+        "type": "debug",
+        "z": "335f453491ca8af1",
+        "name": "debug 1",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 540,
+        "y": 660,
+        "wires": []
+    },
+    {
+        "id": "ec95a60b7b63e47e",
+        "type": "inject",
+        "z": "335f453491ca8af1",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 140,
+        "y": 660,
+        "wires": [
+            [
+                "f2bd344fda132c13"
+            ]
+        ]
+    },
+    {
+        "id": "22871ddaf0ebca89",
+        "type": "debug",
+        "z": "335f453491ca8af1",
+        "name": "debug 5",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 860,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "49d94114ebfd4b7e",
+        "type": "change",
+        "z": "335f453491ca8af1",
+        "name": "Set flow.equipment",
+        "rules": [
+            {
+                "t": "set",
+                "p": "equipment",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 390,
+        "y": 840,
+        "wires": [
+            [
+                "f5c2ef62c16ea963"
+            ]
+        ]
+    },
+    {
+        "id": "7a04cf89c104f7f6",
+        "type": "ui_button",
+        "z": "335f453491ca8af1",
+        "name": "",
+        "group": "7a9c06414cedd106",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Nano 33 BLE Sense Rev2",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "#87A980",
+        "className": "",
+        "icon": "",
+        "payload": "Nano_33_BLE_Sense_Rev2",
+        "payloadType": "str",
+        "topic": "payload",
+        "topicType": "msg",
+        "x": 170,
+        "y": 1180,
+        "wires": [
+            [
+                "351e227f1a61460e"
+            ]
+        ]
+    },
+    {
+        "id": "4f585176af9f1184",
+        "type": "ui_button",
+        "z": "335f453491ca8af1",
+        "name": "",
+        "group": "7a9c06414cedd106",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Nano RP2024",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "#87A980",
+        "className": "",
+        "icon": "",
+        "payload": "Nano_RP2040",
+        "payloadType": "str",
+        "topic": "payload",
+        "topicType": "msg",
+        "x": 140,
+        "y": 1120,
+        "wires": [
+            [
+                "351e227f1a61460e"
+            ]
+        ]
+    },
+    {
+        "id": "4fd1615dc7a6064a",
+        "type": "ui_button",
+        "z": "335f453491ca8af1",
+        "name": "",
+        "group": "7a9c06414cedd106",
+        "order": 9,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Portenta Breakout Board",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "Portenta_Breakout_Board",
+        "payloadType": "str",
+        "topic": "payload",
+        "topicType": "msg",
+        "x": 170,
+        "y": 1600,
+        "wires": [
+            [
+                "351e227f1a61460e"
+            ]
+        ]
+    },
+    {
+        "id": "34551a9fba5ff51a",
+        "type": "ui_button",
+        "z": "335f453491ca8af1",
+        "name": "",
+        "group": "7a9c06414cedd106",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Mega 2560",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "#87A980",
+        "className": "",
+        "icon": "",
+        "payload": "Mega_2560",
+        "payloadType": "str",
+        "topic": "payload",
+        "topicType": "msg",
+        "x": 130,
+        "y": 1420,
+        "wires": [
+            [
+                "351e227f1a61460e"
+            ]
+        ]
+    },
+    {
+        "id": "7cac7a0dd01242fb",
+        "type": "ui_button",
+        "z": "335f453491ca8af1",
+        "name": "",
+        "group": "7a9c06414cedd106",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Nano 33 IoT",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "#87A980",
+        "className": "",
+        "icon": "",
+        "payload": "Nano_33_IoT",
+        "payloadType": "str",
+        "topic": "payload",
+        "topicType": "msg",
+        "x": 130,
+        "y": 1240,
+        "wires": [
+            [
+                "351e227f1a61460e"
+            ]
+        ]
+    },
+    {
+        "id": "45f819dd411fb18f",
+        "type": "ui_button",
+        "z": "335f453491ca8af1",
+        "name": "",
+        "group": "7a9c06414cedd106",
+        "order": 6,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Nano Every ",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "#87A980",
+        "className": "",
+        "icon": "",
+        "payload": "Nano_Every ",
+        "payloadType": "str",
+        "topic": "payload",
+        "topicType": "msg",
+        "x": 130,
+        "y": 1300,
+        "wires": [
+            [
+                "351e227f1a61460e"
+            ]
+        ]
+    },
+    {
+        "id": "336c85514da715d1",
+        "type": "ui_button",
+        "z": "335f453491ca8af1",
+        "name": "",
+        "group": "7a9c06414cedd106",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Uno R3",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "#87A980",
+        "className": "",
+        "icon": "",
+        "payload": "Uno_R3",
+        "payloadType": "str",
+        "topic": "payload",
+        "topicType": "msg",
+        "x": 120,
+        "y": 1360,
+        "wires": [
+            [
+                "351e227f1a61460e"
+            ]
+        ]
+    },
+    {
+        "id": "9975386490e284bd",
+        "type": "ui_button",
+        "z": "335f453491ca8af1",
+        "name": "",
+        "group": "7a9c06414cedd106",
+        "order": 7,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "ATMEGA328P Pro Mini",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "ATMEGA328P_Pro_Mini",
+        "payloadType": "str",
+        "topic": "payload",
+        "topicType": "msg",
+        "x": 170,
+        "y": 1480,
+        "wires": [
+            [
+                "351e227f1a61460e"
+            ]
+        ]
+    },
+    {
+        "id": "0f2b727ec815672f",
+        "type": "switch",
+        "z": "335f453491ca8af1",
+        "name": "",
+        "property": "id",
+        "propertyType": "flow",
+        "rules": [
+            {
+                "t": "neq",
+                "v": "null",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 770,
+        "y": 1340,
+        "wires": [
+            [
+                "b51ad51c3d9b45da"
+            ]
+        ]
+    },
+    {
+        "id": "351e227f1a61460e",
+        "type": "change",
+        "z": "335f453491ca8af1",
+        "name": "Set flow.equipment",
+        "rules": [
+            {
+                "t": "set",
+                "p": "equipment",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 390,
+        "y": 1340,
+        "wires": [
+            [
+                "1b3e5278c029f83b"
+            ]
+        ]
+    },
+    {
+        "id": "cbaad1bde830128c",
+        "type": "ui_button",
+        "z": "335f453491ca8af1",
+        "name": "",
+        "group": "dae9bc772b6e23c2",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "ESP32-S3-BOX",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "#F3B567",
+        "className": "",
+        "icon": "",
+        "payload": "ESP32_S3_BOX",
+        "payloadType": "str",
+        "topic": "payload",
+        "topicType": "msg",
+        "x": 140,
+        "y": 1760,
+        "wires": [
+            [
+                "afe269b11119099c"
+            ]
+        ]
+    },
+    {
+        "id": "67083a17d4797ef8",
+        "type": "ui_button",
+        "z": "335f453491ca8af1",
+        "name": "",
+        "group": "dae9bc772b6e23c2",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "FireBeetle ESP32",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "#F3B567",
+        "className": "",
+        "icon": "",
+        "payload": "FireBeetle_ESP32",
+        "payloadType": "str",
+        "topic": "payload",
+        "topicType": "msg",
+        "x": 150,
+        "y": 1700,
+        "wires": [
+            [
+                "afe269b11119099c"
+            ]
+        ]
+    },
+    {
+        "id": "cafa4a26ca1e2250",
+        "type": "ui_button",
+        "z": "335f453491ca8af1",
+        "name": "",
+        "group": "dae9bc772b6e23c2",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "ESP32_S3_BOX_LITE",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "#F3B567",
+        "className": "",
+        "icon": "",
+        "payload": "ESP32_S3_BOX_LITE",
+        "payloadType": "str",
+        "topic": "payload",
+        "topicType": "msg",
+        "x": 160,
+        "y": 1820,
+        "wires": [
+            [
+                "afe269b11119099c"
+            ]
+        ]
+    },
+    {
+        "id": "b9bf27a57927f0ac",
+        "type": "ui_button",
+        "z": "335f453491ca8af1",
+        "name": "",
+        "group": "dae9bc772b6e23c2",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "FireBeetle Covers Board",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "FireBeetle_Covers_Board",
+        "payloadType": "str",
+        "topic": "payload",
+        "topicType": "msg",
+        "x": 170,
+        "y": 1940,
+        "wires": [
+            [
+                "afe269b11119099c"
+            ]
+        ]
+    },
+    {
+        "id": "13ead4f327bce91d",
+        "type": "ui_button",
+        "z": "335f453491ca8af1",
+        "name": "",
+        "group": "dae9bc772b6e23c2",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "ESP-PROG board",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "ESP_PROG_board",
+        "payloadType": "str",
+        "topic": "payload",
+        "topicType": "msg",
+        "x": 150,
+        "y": 1880,
+        "wires": [
+            [
+                "afe269b11119099c"
+            ]
+        ]
+    },
+    {
+        "id": "aaf86b030aaa4d2e",
+        "type": "switch",
+        "z": "335f453491ca8af1",
+        "name": "",
+        "property": "id",
+        "propertyType": "flow",
+        "rules": [
+            {
+                "t": "neq",
+                "v": "null",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 770,
+        "y": 1820,
+        "wires": [
+            [
+                "224ea1f692bc968b"
+            ]
+        ]
+    },
+    {
+        "id": "afe269b11119099c",
+        "type": "change",
+        "z": "335f453491ca8af1",
+        "name": "Set flow.equipment",
+        "rules": [
+            {
+                "t": "set",
+                "p": "equipment",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 390,
+        "y": 1820,
+        "wires": [
+            [
+                "deb96e88ea7bac38"
+            ]
+        ]
+    },
+    {
+        "id": "c05384c5b4056386",
+        "type": "comment",
+        "z": "335f453491ca8af1",
+        "name": "IoT - Arduino",
+        "info": "",
+        "x": 130,
+        "y": 1080,
+        "wires": []
+    },
+    {
+        "id": "5c48cf066da7e3db",
+        "type": "comment",
+        "z": "335f453491ca8af1",
+        "name": "IoT - ESP32",
+        "info": "",
+        "x": 130,
+        "y": 1660,
+        "wires": []
+    },
+    {
+        "id": "a73c9798e3e33b3a",
+        "type": "ui_button",
+        "z": "335f453491ca8af1",
+        "name": "",
+        "group": "883118e663edca81",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "M5GO IoT Starter Kit",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "M5GO_IoT_Starter_Kit",
+        "payloadType": "str",
+        "topic": "payload",
+        "topicType": "msg",
+        "x": 160,
+        "y": 2100,
+        "wires": [
+            [
+                "dfe2d6156f5a5b61"
+            ]
+        ]
+    },
+    {
+        "id": "e86d7bdc636b2651",
+        "type": "ui_button",
+        "z": "335f453491ca8af1",
+        "name": "",
+        "group": "883118e663edca81",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": " Arduino Starter Kit",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": " Arduino_Starter_Kit",
+        "payloadType": "str",
+        "topic": "payload",
+        "topicType": "msg",
+        "x": 150,
+        "y": 2040,
+        "wires": [
+            [
+                "dfe2d6156f5a5b61"
+            ]
+        ]
+    },
+    {
+        "id": "76b0cc711745b49a",
+        "type": "switch",
+        "z": "335f453491ca8af1",
+        "name": "",
+        "property": "id",
+        "propertyType": "flow",
+        "rules": [
+            {
+                "t": "neq",
+                "v": "null",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 770,
+        "y": 2060,
+        "wires": [
+            [
+                "7d32aa542dc27ac5"
+            ]
+        ]
+    },
+    {
+        "id": "dfe2d6156f5a5b61",
+        "type": "change",
+        "z": "335f453491ca8af1",
+        "name": "Set flow.equipment",
+        "rules": [
+            {
+                "t": "set",
+                "p": "equipment",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 390,
+        "y": 2060,
+        "wires": [
+            [
+                "94ed0c1fa08510cf"
+            ]
+        ]
+    },
+    {
+        "id": "57c697adaf35f546",
+        "type": "comment",
+        "z": "335f453491ca8af1",
+        "name": "IoT - Starter Kit",
+        "info": "",
+        "x": 140,
+        "y": 2000,
+        "wires": []
+    },
+    {
+        "id": "edd7d8277a1395e2",
+        "type": "ui_button",
+        "z": "335f453491ca8af1",
+        "name": "",
+        "group": "d15e4d320617bc0a",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Dupont Line (MF) 20cm",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "#C0C0C0",
+        "className": "",
+        "icon": "",
+        "payload": "Dupont_Line_(MF)_20cm",
+        "payloadType": "str",
+        "topic": "payload",
+        "topicType": "msg",
+        "x": 170,
+        "y": 2480,
+        "wires": [
+            [
+                "0a2f31e2a328a586"
+            ]
+        ]
+    },
+    {
+        "id": "5f44cbe80a8eac49",
+        "type": "ui_button",
+        "z": "335f453491ca8af1",
+        "name": "",
+        "group": "d15e4d320617bc0a",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Bread Line set",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "#C0C0C0",
+        "className": "",
+        "icon": "",
+        "payload": "Bread_Line_set",
+        "payloadType": "str",
+        "topic": "payload",
+        "topicType": "msg",
+        "x": 140,
+        "y": 2420,
+        "wires": [
+            [
+                "0a2f31e2a328a586"
+            ]
+        ]
+    },
+    {
+        "id": "cad0e7ddc21e9f94",
+        "type": "switch",
+        "z": "335f453491ca8af1",
+        "name": "",
+        "property": "id",
+        "propertyType": "flow",
+        "rules": [
+            {
+                "t": "neq",
+                "v": "null",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 770,
+        "y": 2640,
+        "wires": [
+            [
+                "047e1427e9c0aa98"
+            ]
+        ]
+    },
+    {
+        "id": "0a2f31e2a328a586",
+        "type": "change",
+        "z": "335f453491ca8af1",
+        "name": "Set flow.equipment",
+        "rules": [
+            {
+                "t": "set",
+                "p": "equipment",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 390,
+        "y": 2640,
+        "wires": [
+            [
+                "31fd0accacb5616a"
+            ]
+        ]
+    },
+    {
+        "id": "5b9f47076da65061",
+        "type": "comment",
+        "z": "335f453491ca8af1",
+        "name": "IoT - Accessories",
+        "info": "",
+        "x": 140,
+        "y": 2380,
+        "wires": []
+    },
+    {
+        "id": "d776cd2cea2f66b2",
+        "type": "ui_button",
+        "z": "335f453491ca8af1",
+        "name": "",
+        "group": "d15e4d320617bc0a",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Dupont Line (FF) 20cm",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "#C0C0C0",
+        "className": "",
+        "icon": "",
+        "payload": "Dupont_Line_(FF)_20cm",
+        "payloadType": "str",
+        "topic": "payload",
+        "topicType": "msg",
+        "x": 170,
+        "y": 2540,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2a7ad2d94d19c31b",
+        "type": "ui_button",
+        "z": "335f453491ca8af1",
+        "name": "",
+        "group": "d15e4d320617bc0a",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Dupont Line (MM) 20cm",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "#C0C0C0",
+        "className": "",
+        "icon": "",
+        "payload": "Dupont_Line_(MM)_20cm",
+        "payloadType": "str",
+        "topic": "payload",
+        "topicType": "msg",
+        "x": 170,
+        "y": 2600,
+        "wires": [
+            [
+                "0a2f31e2a328a586"
+            ]
+        ]
+    },
+    {
+        "id": "4cfc5c943f5cd020",
+        "type": "ui_button",
+        "z": "335f453491ca8af1",
+        "name": "",
+        "group": "e2834b18a72d1c25",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Ard&RPi 37 in 1 Sensor Set",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "37_in_1_Sensor_Set(Micro:bit/RPi/Arduino)",
+        "payloadType": "str",
+        "topic": "payload",
+        "topicType": "msg",
+        "x": 180,
+        "y": 2260,
+        "wires": [
+            [
+                "5428e5e55abc6c37"
+            ]
+        ]
+    },
+    {
+        "id": "6e7cb6689db2776c",
+        "type": "ui_button",
+        "z": "335f453491ca8af1",
+        "name": "",
+        "group": "e2834b18a72d1c25",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Keyestudio – 48 in 1 Sensor Starter Kit",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "Keyestudio_48_in_1_Sensor_Starter_Kit",
+        "payloadType": "str",
+        "topic": "payload",
+        "topicType": "msg",
+        "x": 210,
+        "y": 2200,
+        "wires": [
+            [
+                "5428e5e55abc6c37"
+            ]
+        ]
+    },
+    {
+        "id": "064a79c84f54f732",
+        "type": "switch",
+        "z": "335f453491ca8af1",
+        "name": "",
+        "property": "id",
+        "propertyType": "flow",
+        "rules": [
+            {
+                "t": "neq",
+                "v": "null",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 770,
+        "y": 2260,
+        "wires": [
+            [
+                "2bb2028de5e36532"
+            ]
+        ]
+    },
+    {
+        "id": "5428e5e55abc6c37",
+        "type": "change",
+        "z": "335f453491ca8af1",
+        "name": "Set flow.equipment",
+        "rules": [
+            {
+                "t": "set",
+                "p": "equipment",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 390,
+        "y": 2260,
+        "wires": [
+            [
+                "dbd1e5612aed077c"
+            ]
+        ]
+    },
+    {
+        "id": "0222b49d6084df42",
+        "type": "comment",
+        "z": "335f453491ca8af1",
+        "name": "IoT - Sensor",
+        "info": "",
+        "x": 130,
+        "y": 2160,
+        "wires": []
+    },
+    {
+        "id": "74fa8888f7a7d38e",
+        "type": "ui_button",
+        "z": "335f453491ca8af1",
+        "name": "",
+        "group": "e2834b18a72d1c25",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "HC-05 Bluetooth module",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "HC_05_Bluetooth_module",
+        "payloadType": "str",
+        "topic": "payload",
+        "topicType": "msg",
+        "x": 170,
+        "y": 2320,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "3c14458d4372a2b4",
+        "type": "ui_button",
+        "z": "335f453491ca8af1",
+        "name": "",
+        "group": "7a9c06414cedd106",
+        "order": 8,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Portenta H7 module",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "Portenta_H7_module",
+        "payloadType": "str",
+        "topic": "payload",
+        "topicType": "msg",
+        "x": 160,
+        "y": 1540,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9476afa7c6b3a0f1",
+        "type": "ui_button",
+        "z": "335f453491ca8af1",
+        "name": "",
+        "group": "d15e4d320617bc0a",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "USB Type-B Cable",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "#A6BBCF",
+        "className": "",
+        "icon": "",
+        "payload": "USB_Type-B_Cable",
+        "payloadType": "str",
+        "topic": "payload",
+        "topicType": "msg",
+        "x": 150,
+        "y": 2660,
+        "wires": [
+            [
+                "0a2f31e2a328a586"
+            ]
+        ]
+    },
+    {
+        "id": "73a7f9766ad2959a",
+        "type": "ui_button",
+        "z": "335f453491ca8af1",
+        "name": "",
+        "group": "d15e4d320617bc0a",
+        "order": 6,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "miniUSB cable",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "#A6BBCF",
+        "className": "",
+        "icon": "",
+        "payload": "miniUSB_cable",
+        "payloadType": "str",
+        "topic": "payload",
+        "topicType": "msg",
+        "x": 140,
+        "y": 2720,
+        "wires": [
+            [
+                "0a2f31e2a328a586"
+            ]
+        ]
+    },
+    {
+        "id": "ff22ef8935a0c0eb",
+        "type": "ui_button",
+        "z": "335f453491ca8af1",
+        "name": "",
+        "group": "d15e4d320617bc0a",
+        "order": 7,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "mircoUSB cable",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "#A6BBCF",
+        "className": "",
+        "icon": "",
+        "payload": "mircoUSB_cable",
+        "payloadType": "str",
+        "topic": "payload",
+        "topicType": "msg",
+        "x": 140,
+        "y": 2780,
+        "wires": [
+            [
+                "0a2f31e2a328a586"
+            ]
+        ]
+    },
+    {
+        "id": "a9b011ad56ed1491",
+        "type": "ui_button",
+        "z": "335f453491ca8af1",
+        "name": "",
+        "group": "d15e4d320617bc0a",
+        "order": 8,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "USB Type C Cable",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "#A6BBCF",
+        "className": "",
+        "icon": "",
+        "payload": "USB_Type-C_Cable",
+        "payloadType": "str",
+        "topic": "payload",
+        "topicType": "msg",
+        "x": 150,
+        "y": 2840,
+        "wires": [
+            [
+                "0a2f31e2a328a586"
+            ]
+        ]
+    },
+    {
+        "id": "f9cf4447b40149fa",
+        "type": "ui_dropdown",
+        "z": "335f453491ca8af1",
+        "name": "QTY",
+        "label": "QTY",
+        "tooltip": "",
+        "place": "Select option",
+        "group": "ee9cfcc5.d0ae1",
+        "order": 3,
+        "width": "6",
+        "height": "1",
+        "passthru": false,
+        "multiple": false,
+        "options": [
+            {
+                "label": "0",
+                "value": 0,
+                "type": "num"
+            },
+            {
+                "label": "1",
+                "value": 1,
+                "type": "num"
+            },
+            {
+                "label": "2",
+                "value": 2,
+                "type": "num"
+            },
+            {
+                "label": "3",
+                "value": 3,
+                "type": "num"
+            },
+            {
+                "label": "4",
+                "value": 4,
+                "type": "num"
+            },
+            {
+                "label": "5",
+                "value": 5,
+                "type": "num"
+            }
+        ],
+        "payload": "",
+        "topic": "",
+        "topicType": "str",
+        "className": "",
+        "x": 110,
+        "y": 340,
+        "wires": [
+            [
+                "e5adf28d751d8aac"
+            ]
+        ]
+    },
+    {
+        "id": "e5adf28d751d8aac",
+        "type": "change",
+        "z": "335f453491ca8af1",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "qty",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 270,
+        "y": 340,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "986593ad80c29e1a",
+        "type": "ui_ui_control",
+        "z": "335f453491ca8af1",
+        "name": "",
+        "x": 1160,
+        "y": 840,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "0810ea787682a35f",
+        "type": "change",
+        "z": "335f453491ca8af1",
+        "name": "Show Equipments",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{\"group\":{\"show\":[\"IE_Maker_Lab_self-service_Rack_Confirm\"],\"hide\":[]}}",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 950,
+        "y": 840,
+        "wires": [
+            [
+                "986593ad80c29e1a"
+            ]
+        ]
+    },
+    {
+        "id": "8da7adf2ce6619c6",
+        "type": "comment",
+        "z": "335f453491ca8af1",
+        "name": "Group Class README",
+        "info": "Class 0 => IoT\nClass 1 => Electronic\nClass 2 => Mechanic",
+        "x": 160,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "06c404df71c8fb46",
+        "type": "switch",
+        "z": "335f453491ca8af1",
+        "name": "Class == 1 (IoT)",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 640,
+        "y": 240,
+        "wires": [
+            [
+                "a0acc67a2b066ad5"
+            ]
+        ]
+    },
+    {
+        "id": "3c539335a4977080",
+        "type": "switch",
+        "z": "335f453491ca8af1",
+        "name": "Class == 2 (Elect)",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "2",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 650,
+        "y": 300,
+        "wires": [
+            [
+                "bc855d6bf0dcdb8d"
+            ]
+        ]
+    },
+    {
+        "id": "2c9853d90a7f8a34",
+        "type": "switch",
+        "z": "335f453491ca8af1",
+        "name": "Class == 3 (Mech)",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "3",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 650,
+        "y": 360,
+        "wires": [
+            [
+                "18cf80455273c968"
+            ]
+        ]
+    },
+    {
+        "id": "bc855d6bf0dcdb8d",
+        "type": "change",
+        "z": "335f453491ca8af1",
+        "name": "Show Equipments",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{\"group\":{\"show\":[\"IE_Maker_Lab_self-service_Rack_Electronic-Testing\"],\"hide\":[\"IE_Maker_Lab_self-service_Rack_IoT-Arduino\",\"IE_Maker_Lab_self-service_Rack_IoT-ESP32\",\"IE_Maker_Lab_self-service_Rack_IoT-Sensor\",\"IE_Maker_Lab_self-service_Rack_IoT-Starter_Kit\",\"IE_Maker_Lab_self-service_Rack_IoT-Accessories\",\"IE_Maker_Lab_self-service_Rack_Mechanic-Hand_Tools\",\"IE_Maker_Lab_self-service_Rack_Confirm\"]}}",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 950,
+        "y": 300,
+        "wires": [
+            [
+                "041c95adcc744c17"
+            ]
+        ]
+    },
+    {
+        "id": "18cf80455273c968",
+        "type": "change",
+        "z": "335f453491ca8af1",
+        "name": "Show Equipments",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{\"group\":{\"show\":[\"IE_Maker_Lab_self-service_Rack_Mechanic-Hand_Tools\"],\"hide\":[\"IE_Maker_Lab_self-service_Rack_IoT-Arduino\",\"IE_Maker_Lab_self-service_Rack_IoT-ESP32\",\"IE_Maker_Lab_self-service_Rack_IoT-Sensor\",\"IE_Maker_Lab_self-service_Rack_IoT-Starter_Kit\",\"IE_Maker_Lab_self-service_Rack_IoT-Accessories\",\"IE_Maker_Lab_self-service_Rack_Electronic-Testing\",\"IE_Maker_Lab_self-service_Rack_Confirm\"]}}",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 950,
+        "y": 360,
+        "wires": [
+            [
+                "9dd936a7c73ff4ba"
+            ]
+        ]
+    },
+    {
+        "id": "041c95adcc744c17",
+        "type": "ui_ui_control",
+        "z": "335f453491ca8af1",
+        "name": "",
+        "x": 1160,
+        "y": 300,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9dd936a7c73ff4ba",
+        "type": "ui_ui_control",
+        "z": "335f453491ca8af1",
+        "name": "",
+        "x": 1160,
+        "y": 360,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e85c8b34420e7a08",
+        "type": "ui_ui_control",
+        "z": "335f453491ca8af1",
+        "name": "",
+        "x": 1160,
+        "y": 1340,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "fcac0cf16e3f4340",
+        "type": "ui_ui_control",
+        "z": "335f453491ca8af1",
+        "name": "",
+        "x": 1180,
+        "y": 1820,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "224ea1f692bc968b",
+        "type": "change",
+        "z": "335f453491ca8af1",
+        "name": "Show Equipments",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{\"group\":{\"show\":[\"IE_Maker_Lab_self-service_Rack_Confirm\"],\"hide\":[]}}",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 970,
+        "y": 1820,
+        "wires": [
+            [
+                "fcac0cf16e3f4340"
+            ]
+        ]
+    },
+    {
+        "id": "1f466056ad585a82",
+        "type": "ui_ui_control",
+        "z": "335f453491ca8af1",
+        "name": "",
+        "x": 1180,
+        "y": 2060,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "7d32aa542dc27ac5",
+        "type": "change",
+        "z": "335f453491ca8af1",
+        "name": "Show Equipments",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{\"group\":{\"show\":[\"IE_Maker_Lab_self-service_Rack_Confirm\"],\"hide\":[]}}",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 970,
+        "y": 2060,
+        "wires": [
+            [
+                "1f466056ad585a82"
+            ]
+        ]
+    },
+    {
+        "id": "4941ec529d191912",
+        "type": "ui_ui_control",
+        "z": "335f453491ca8af1",
+        "name": "",
+        "x": 1180,
+        "y": 2260,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2bb2028de5e36532",
+        "type": "change",
+        "z": "335f453491ca8af1",
+        "name": "Show Equipments",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{\"group\":{\"show\":[\"IE_Maker_Lab_self-service_Rack_Confirm\"],\"hide\":[]}}",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 970,
+        "y": 2260,
+        "wires": [
+            [
+                "4941ec529d191912"
+            ]
+        ]
+    },
+    {
+        "id": "64458d2b78d6b4fe",
+        "type": "ui_ui_control",
+        "z": "335f453491ca8af1",
+        "name": "",
+        "x": 1180,
+        "y": 2640,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "047e1427e9c0aa98",
+        "type": "change",
+        "z": "335f453491ca8af1",
+        "name": "Show Equipments",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{\"group\":{\"show\":[\"IE_Maker_Lab_self-service_Rack_Confirm\"],\"hide\":[]}}",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 970,
+        "y": 2640,
+        "wires": [
+            [
+                "64458d2b78d6b4fe"
+            ]
+        ]
+    },
+    {
+        "id": "c81fc18333b99e47",
+        "type": "comment",
+        "z": "335f453491ca8af1",
+        "name": "Electronic-Testing",
+        "info": "",
+        "x": 150,
+        "y": 2900,
+        "wires": []
+    },
+    {
+        "id": "8e94da4fb4f4e253",
+        "type": "ui_button",
+        "z": "335f453491ca8af1",
+        "name": "",
+        "group": "b73179e3f159c985",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "DC power supply",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "DC_power_supply",
+        "payloadType": "str",
+        "topic": "payload",
+        "topicType": "msg",
+        "x": 150,
+        "y": 3000,
+        "wires": [
+            [
+                "a32322c8e1562177"
+            ]
+        ]
+    },
+    {
+        "id": "c10542fd44448f4e",
+        "type": "ui_button",
+        "z": "335f453491ca8af1",
+        "name": "",
+        "group": "b73179e3f159c985",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "DSO",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "DSO",
+        "payloadType": "str",
+        "topic": "payload",
+        "topicType": "msg",
+        "x": 110,
+        "y": 2940,
+        "wires": [
+            [
+                "a32322c8e1562177"
+            ]
+        ]
+    },
+    {
+        "id": "72bc98cec43d9f0c",
+        "type": "switch",
+        "z": "335f453491ca8af1",
+        "name": "",
+        "property": "id",
+        "propertyType": "flow",
+        "rules": [
+            {
+                "t": "neq",
+                "v": "null",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 770,
+        "y": 3100,
+        "wires": [
+            [
+                "9dcf7d23069c62e4"
+            ]
+        ]
+    },
+    {
+        "id": "a32322c8e1562177",
+        "type": "change",
+        "z": "335f453491ca8af1",
+        "name": "Set flow.equipment",
+        "rules": [
+            {
+                "t": "set",
+                "p": "equipment",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 390,
+        "y": 3100,
+        "wires": [
+            [
+                "20b2b89eba9caabc"
+            ]
+        ]
+    },
+    {
+        "id": "fb446405f6cd7545",
+        "type": "ui_button",
+        "z": "335f453491ca8af1",
+        "name": "",
+        "group": "b73179e3f159c985",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Function Generator",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "Function_Generator",
+        "payloadType": "str",
+        "topic": "payload",
+        "topicType": "msg",
+        "x": 150,
+        "y": 3060,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "411193ba15b9711c",
+        "type": "ui_button",
+        "z": "335f453491ca8af1",
+        "name": "",
+        "group": "b73179e3f159c985",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Heat guns",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "Heat_guns",
+        "payloadType": "str",
+        "topic": "payload",
+        "topicType": "msg",
+        "x": 130,
+        "y": 3120,
+        "wires": [
+            [
+                "a32322c8e1562177"
+            ]
+        ]
+    },
+    {
+        "id": "fca87c1d9e504d72",
+        "type": "ui_button",
+        "z": "335f453491ca8af1",
+        "name": "",
+        "group": "b73179e3f159c985",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Glue Gun",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "Glue_Gun",
+        "payloadType": "str",
+        "topic": "payload",
+        "topicType": "msg",
+        "x": 120,
+        "y": 3180,
+        "wires": [
+            [
+                "a32322c8e1562177"
+            ]
+        ]
+    },
+    {
+        "id": "a73560b9ac89c224",
+        "type": "ui_ui_control",
+        "z": "335f453491ca8af1",
+        "name": "",
+        "x": 1180,
+        "y": 3100,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9dcf7d23069c62e4",
+        "type": "change",
+        "z": "335f453491ca8af1",
+        "name": "Show Equipments",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{\"group\":{\"show\":[\"IE_Maker_Lab_self-service_Rack_Confirm\"],\"hide\":[]}}",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 970,
+        "y": 3100,
+        "wires": [
+            [
+                "a73560b9ac89c224"
+            ]
+        ]
+    },
+    {
+        "id": "fd245d3aa88057d4",
+        "type": "ui_button",
+        "z": "335f453491ca8af1",
+        "name": "",
+        "group": "b73179e3f159c985",
+        "order": 6,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Hot Wire Foam Cutter Kit",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "Hot_Wire_Foam_Cutter_Kit",
+        "payloadType": "str",
+        "topic": "payload",
+        "topicType": "msg",
+        "x": 170,
+        "y": 3240,
+        "wires": [
+            [
+                "a32322c8e1562177"
+            ]
+        ]
+    },
+    {
+        "id": "03f9fb97126fb8f9",
+        "type": "comment",
+        "z": "335f453491ca8af1",
+        "name": "Mechanic-Hand_Tools",
+        "info": "",
+        "x": 160,
+        "y": 3300,
+        "wires": []
+    },
+    {
+        "id": "5538633a3e0c5033",
+        "type": "ui_button",
+        "z": "335f453491ca8af1",
+        "name": "",
+        "group": "f9931f35acec8bcd",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "DC power supply",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "DC_power_supply",
+        "payloadType": "str",
+        "topic": "payload",
+        "topicType": "msg",
+        "x": 150,
+        "y": 3400,
+        "wires": [
+            [
+                "c9e622969537e1f5"
+            ]
+        ]
+    },
+    {
+        "id": "b6e8e912c6bec0de",
+        "type": "ui_button",
+        "z": "335f453491ca8af1",
+        "name": "",
+        "group": "f9931f35acec8bcd",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "DSO",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "DSO",
+        "payloadType": "str",
+        "topic": "payload",
+        "topicType": "msg",
+        "x": 110,
+        "y": 3340,
+        "wires": [
+            [
+                "c9e622969537e1f5"
+            ]
+        ]
+    },
+    {
+        "id": "625b0aaacccd6fb0",
+        "type": "switch",
+        "z": "335f453491ca8af1",
+        "name": "",
+        "property": "id",
+        "propertyType": "flow",
+        "rules": [
+            {
+                "t": "neq",
+                "v": "null",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 770,
+        "y": 3500,
+        "wires": [
+            [
+                "0225facee407de4d"
+            ]
+        ]
+    },
+    {
+        "id": "c9e622969537e1f5",
+        "type": "change",
+        "z": "335f453491ca8af1",
+        "name": "Set flow.equipment",
+        "rules": [
+            {
+                "t": "set",
+                "p": "equipment",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 390,
+        "y": 3500,
+        "wires": [
+            [
+                "259107a94a09d43d"
+            ]
+        ]
+    },
+    {
+        "id": "1ac7c1d7e4204cc4",
+        "type": "ui_button",
+        "z": "335f453491ca8af1",
+        "name": "",
+        "group": "f9931f35acec8bcd",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Function Generator",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "Function_Generator",
+        "payloadType": "str",
+        "topic": "payload",
+        "topicType": "msg",
+        "x": 150,
+        "y": 3460,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2ca196daee33212a",
+        "type": "ui_button",
+        "z": "335f453491ca8af1",
+        "name": "",
+        "group": "f9931f35acec8bcd",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Heat guns",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "Heat_guns",
+        "payloadType": "str",
+        "topic": "payload",
+        "topicType": "msg",
+        "x": 130,
+        "y": 3520,
+        "wires": [
+            [
+                "c9e622969537e1f5"
+            ]
+        ]
+    },
+    {
+        "id": "6119a522eb22a3a2",
+        "type": "ui_button",
+        "z": "335f453491ca8af1",
+        "name": "",
+        "group": "f9931f35acec8bcd",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Glue Gun",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "Glue_Gun",
+        "payloadType": "str",
+        "topic": "payload",
+        "topicType": "msg",
+        "x": 120,
+        "y": 3580,
+        "wires": [
+            [
+                "c9e622969537e1f5"
+            ]
+        ]
+    },
+    {
+        "id": "5cef8da04a28c6ec",
+        "type": "ui_ui_control",
+        "z": "335f453491ca8af1",
+        "name": "",
+        "x": 1180,
+        "y": 3500,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "0225facee407de4d",
+        "type": "change",
+        "z": "335f453491ca8af1",
+        "name": "Show Equipments",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{\"group\":{\"show\":[\"IE_Maker_Lab_self-service_Rack_Confirm\"],\"hide\":[]}}",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 970,
+        "y": 3500,
+        "wires": [
+            [
+                "5cef8da04a28c6ec"
+            ]
+        ]
+    },
+    {
+        "id": "a9b462721b66e771",
+        "type": "ui_button",
+        "z": "335f453491ca8af1",
+        "name": "",
+        "group": "f9931f35acec8bcd",
+        "order": 6,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Hot Wire Foam Cutter Kit",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "Hot_Wire_Foam_Cutter_Kit",
+        "payloadType": "str",
+        "topic": "payload",
+        "topicType": "msg",
+        "x": 170,
+        "y": 3640,
+        "wires": [
+            [
+                "c9e622969537e1f5"
+            ]
+        ]
+    },
+    {
+        "id": "9b6ee0dde93a11cc",
+        "type": "ui_button",
+        "z": "335f453491ca8af1",
+        "name": "",
+        "group": "ee9cfcc5.d0ae1",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "confirm",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 120,
+        "y": 520,
+        "wires": [
+            [
+                "a7beef08a010974b"
+            ]
+        ]
+    },
+    {
+        "id": "d503d1a8800dd450",
+        "type": "ui_dropdown",
+        "z": "335f453491ca8af1",
+        "name": "toolClass",
+        "label": "Select a class",
+        "tooltip": "",
+        "place": "Select option",
+        "group": "d8aa4ae1761b7c80",
+        "order": 1,
+        "width": "6",
+        "height": 3,
+        "passthru": false,
+        "multiple": false,
+        "options": [
+            {
+                "label": "Please_Select",
+                "value": 0,
+                "type": "num"
+            },
+            {
+                "label": "IoT",
+                "value": 1,
+                "type": "num"
+            },
+            {
+                "label": "Electronic",
+                "value": 2,
+                "type": "num"
+            },
+            {
+                "label": "Mechanic",
+                "value": "3",
+                "type": "str"
+            }
+        ],
+        "payload": "",
+        "topic": "class",
+        "topicType": "flow",
+        "className": "",
+        "x": 120,
+        "y": 240,
+        "wires": [
+            [
+                "89d73426e9a1da99"
+            ]
+        ]
+    },
+    {
+        "id": "bcd72efc56678770",
+        "type": "change",
+        "z": "335f453491ca8af1",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 400,
+        "y": 180,
+        "wires": [
+            [
+                "d503d1a8800dd450",
+                "f9cf4447b40149fa"
+            ]
+        ]
+    },
+    {
+        "id": "a7beef08a010974b",
+        "type": "switch",
+        "z": "335f453491ca8af1",
+        "name": "qty != 0?",
+        "property": "qty",
+        "propertyType": "flow",
+        "rules": [
+            {
+                "t": "neq",
+                "v": "0",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 280,
+        "y": 520,
+        "wires": [
+            [
+                "f767726ace66e7ae",
+                "27cc420c12c00e6f"
+            ]
+        ]
+    },
+    {
+        "id": "44cb815a4ed19945",
+        "type": "switch",
+        "z": "335f453491ca8af1",
+        "name": "class != 0?",
+        "property": "class",
+        "propertyType": "flow",
+        "rules": [
+            {
+                "t": "neq",
+                "v": "0",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 450,
+        "y": 240,
+        "wires": [
+            [
+                "06c404df71c8fb46",
+                "3c539335a4977080",
+                "2c9853d90a7f8a34"
+            ]
+        ]
+    },
+    {
+        "id": "f5c2ef62c16ea963",
+        "type": "switch",
+        "z": "335f453491ca8af1",
+        "name": "equipment Null?",
+        "property": "equipment",
+        "propertyType": "flow",
+        "rules": [
+            {
+                "t": "nnull"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 600,
+        "y": 840,
+        "wires": [
+            [
+                "1aea9a21b30134e7"
+            ]
+        ]
+    },
+    {
+        "id": "1b3e5278c029f83b",
+        "type": "switch",
+        "z": "335f453491ca8af1",
+        "name": "equipment Null?",
+        "property": "equipment",
+        "propertyType": "flow",
+        "rules": [
+            {
+                "t": "nnull"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 600,
+        "y": 1340,
+        "wires": [
+            [
+                "0f2b727ec815672f"
+            ]
+        ]
+    },
+    {
+        "id": "deb96e88ea7bac38",
+        "type": "switch",
+        "z": "335f453491ca8af1",
+        "name": "equipment Null?",
+        "property": "equipment",
+        "propertyType": "flow",
+        "rules": [
+            {
+                "t": "nnull"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 600,
+        "y": 1820,
+        "wires": [
+            [
+                "aaf86b030aaa4d2e"
+            ]
+        ]
+    },
+    {
+        "id": "94ed0c1fa08510cf",
+        "type": "switch",
+        "z": "335f453491ca8af1",
+        "name": "equipment Null?",
+        "property": "equipment",
+        "propertyType": "flow",
+        "rules": [
+            {
+                "t": "nnull"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 600,
+        "y": 2060,
+        "wires": [
+            [
+                "76b0cc711745b49a"
+            ]
+        ]
+    },
+    {
+        "id": "dbd1e5612aed077c",
+        "type": "switch",
+        "z": "335f453491ca8af1",
+        "name": "equipment Null?",
+        "property": "equipment",
+        "propertyType": "flow",
+        "rules": [
+            {
+                "t": "nnull"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 600,
+        "y": 2260,
+        "wires": [
+            [
+                "064a79c84f54f732"
+            ]
+        ]
+    },
+    {
+        "id": "31fd0accacb5616a",
+        "type": "switch",
+        "z": "335f453491ca8af1",
+        "name": "equipment Null?",
+        "property": "equipment",
+        "propertyType": "flow",
+        "rules": [
+            {
+                "t": "nnull"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 600,
+        "y": 2640,
+        "wires": [
+            [
+                "cad0e7ddc21e9f94"
+            ]
+        ]
+    },
+    {
+        "id": "20b2b89eba9caabc",
+        "type": "switch",
+        "z": "335f453491ca8af1",
+        "name": "equipment Null?",
+        "property": "equipment",
+        "propertyType": "flow",
+        "rules": [
+            {
+                "t": "nnull"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 600,
+        "y": 3100,
+        "wires": [
+            [
+                "72bc98cec43d9f0c"
+            ]
+        ]
+    },
+    {
+        "id": "259107a94a09d43d",
+        "type": "switch",
+        "z": "335f453491ca8af1",
+        "name": "equipment Null?",
+        "property": "equipment",
+        "propertyType": "flow",
+        "rules": [
+            {
+                "t": "nnull"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 600,
+        "y": 3500,
+        "wires": [
+            [
+                "625b0aaacccd6fb0"
+            ]
+        ]
+    },
+    {
+        "id": "a1b605abb047a8f2",
+        "type": "ui_text",
+        "z": "335f453491ca8af1",
+        "group": "ee9cfcc5.d0ae1",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Maker ID:",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": "",
+        "color": "#000000",
+        "x": 360,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "98da91d0e760ce40",
+        "type": "inject",
+        "z": "335f453491ca8af1",
+        "name": "Update ID",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "0.5",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "id",
+        "payloadType": "flow",
+        "x": 130,
+        "y": 400,
+        "wires": [
+            [
+                "a1b605abb047a8f2"
+            ]
+        ]
+    },
+    {
+        "id": "9ee211d47341d1b7",
+        "type": "ui_text",
+        "z": "335f453491ca8af1",
+        "group": "ee9cfcc5.d0ae1",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Selected Equipment:",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": "",
+        "color": "#000000",
+        "x": 400,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "186d4f93ef273792",
+        "type": "inject",
+        "z": "335f453491ca8af1",
+        "name": "Update Equipment",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "0.5",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "equipment",
+        "payloadType": "flow",
+        "x": 160,
+        "y": 440,
+        "wires": [
+            [
+                "9ee211d47341d1b7"
+            ]
+        ]
+    },
+    {
+        "id": "fecce22717d12802",
+        "type": "debug",
+        "z": "335f453491ca8af1",
+        "name": "debug 6",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1260,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "d1943e735a8986ab",
+        "type": "file",
+        "z": "335f453491ca8af1",
+        "name": "",
+        "filename": "\\\\158.132.154.99\\99-database\\IE_MakerLab_Tool_Record.csv",
+        "filenameType": "str",
+        "appendNewline": false,
+        "createDir": false,
+        "overwriteFile": "false",
+        "encoding": "none",
+        "x": 930,
+        "y": 440,
+        "wires": [
+            [
+                "fecce22717d12802"
+            ]
+        ]
+    },
+    {
+        "id": "27cc420c12c00e6f",
+        "type": "function",
+        "z": "335f453491ca8af1",
+        "name": "insert record",
+        "func": "var id = flow.get(\"id\");\nvar date = flow.get(\"date\");\nvar time = flow.get(\"time\");\nvar Toolclass = flow.get(\"class\");\nvar equipment = flow.get(\"equipment\");\nvar qty = flow.get(\"qty\");\nvar status = \"borrow\";\nvar sheetInsert = \"\";\n\nif (Toolclass == 1) {\n    Toolclass = \"IoT\";\n} else if (Toolclass == 2) {\n    Toolclass = \"Electronic\";\n} else if (Toolclass == 3) {\n    Toolclass = \"Mechanic\";\n}\n\nsheetInsert = \"{\\\"id\\\":\\\"\" + id + \"\\\"\";\nsheetInsert = sheetInsert + \", \\\"date\\\":\\\"\" + date + \"\\\"\";\nsheetInsert = sheetInsert + \", \\\"time\\\":\\\"\" + time + \"\\\"\";\nsheetInsert = sheetInsert + \", \\\"class\\\":\\\"\" + Toolclass + \"\\\"\";\nsheetInsert = sheetInsert + \", \\\"equipment\\\":\\\"\" + equipment + \"\\\"\";\nsheetInsert = sheetInsert + \", \\\"qty\\\":\\\"\" + qty + \"\\\"\";\nsheetInsert = sheetInsert + \", \\\"status\\\":\\\"\" + status + \"\\\"\";\nsheetInsert = sheetInsert + \"}\";\n\n//msg.payload = sheetInsert\n\n\nmsg.params = [id, date, time, Toolclass, equipment, qty, status];\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 470,
+        "y": 580,
+        "wires": [
+            [
+                "ded473d4260c1784"
+            ]
+        ]
+    },
+    {
+        "id": "cd862efc48951a33",
+        "type": "csv",
+        "z": "335f453491ca8af1",
+        "name": "",
+        "sep": ",",
+        "hdrin": "",
+        "hdrout": "none",
+        "multi": "one",
+        "ret": "\\n",
+        "temp": "",
+        "skip": "0",
+        "strings": true,
+        "include_empty_strings": "",
+        "include_null_values": "",
+        "x": 610,
+        "y": 440,
+        "wires": [
+            [
+                "d1943e735a8986ab"
+            ]
+        ]
+    },
+    {
+        "id": "b51ad51c3d9b45da",
+        "type": "change",
+        "z": "335f453491ca8af1",
+        "name": "Show Equipments",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{\"group\":{\"show\":[\"IE_Maker_Lab_self-service_Rack_Confirm\"],\"hide\":[]}}",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 950,
+        "y": 1340,
+        "wires": [
+            [
+                "e85c8b34420e7a08"
+            ]
+        ]
+    },
+    {
+        "id": "ded473d4260c1784",
+        "type": "postgrestor",
+        "z": "335f453491ca8af1",
+        "name": "",
+        "query": "INSERT INTO record (id,date,time,class,equipment,qty,status) VALUES ($1,$2,$3,$4,$5,$6,$7);",
+        "postgresDB": "d37f48e234e2b6f4",
+        "output": true,
+        "outputs": 1,
+        "x": 650,
+        "y": 580,
+        "wires": [
+            [
+                "a218c176da00e84a"
+            ]
+        ]
+    },
+    {
+        "id": "a218c176da00e84a",
+        "type": "debug",
+        "z": "335f453491ca8af1",
+        "name": "debug 7",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 860,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "5c37a8731480cd5a",
+        "type": "change",
+        "z": "d620af3bbc13e015",
+        "name": "Store admin id",
+        "rules": [
+            {
+                "t": "set",
+                "p": "admin_id",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 340,
+        "y": 140,
+        "wires": [
+            [
+                "ae2ea856774f9154"
+            ]
+        ]
+    },
+    {
+        "id": "ae2ea856774f9154",
+        "type": "switch",
+        "z": "d620af3bbc13e015",
+        "name": "check admin ID Null OR insdie List",
+        "property": "admin_id",
+        "propertyType": "flow",
+        "rules": [
+            {
+                "t": "else"
+            },
+            {
+                "t": "eq",
+                "v": "AL1910",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "kelvin",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "Kwan Yau",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "Kin",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "Kaho",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 6,
+        "x": 600,
+        "y": 140,
+        "wires": [
+            [
+                "720927fe52737865"
+            ],
+            [
+                "062a89405148fa7c"
+            ],
+            [
+                "2aed111e1e831c13"
+            ],
+            [
+                "0e77e6dbca8f8639"
+            ],
+            [
+                "fc0a90bef95bcab8"
+            ],
+            [
+                "26e3b6fd076254e5"
+            ]
+        ]
+    },
+    {
+        "id": "98bd7fa36ee672d5",
+        "type": "ui_ui_control",
+        "z": "d620af3bbc13e015",
+        "name": "",
+        "x": 1300,
+        "y": 200,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f816845d7c0a8941",
+        "type": "change",
+        "z": "d620af3bbc13e015",
+        "name": "Show Tool Class",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{\"group\":{\"show\":[\"IE_Maker_Lab_admin_return_Maker_Information\"],\"hide\":[]}}",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1120,
+        "y": 200,
+        "wires": [
+            [
+                "98bd7fa36ee672d5"
+            ]
+        ]
+    },
+    {
+        "id": "5d36751d7022d67f",
+        "type": "comment",
+        "z": "d620af3bbc13e015",
+        "name": "IE Maker Lab Admin page for returning tools",
+        "info": "# IE Maker Lab Admin page for returning tools\n\n### Step \n- Step 1: \n    - Place Admin ID card on the ID reader in first form\n    - Wait until the card Reader successfully read the staff ID\n    - Click \"Submit\" button to submit\n\n- Step 2:\n    - Place Student ID card on the ID reader in second form\n    - Submit student ID after checking\n    ",
+        "x": 230,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "c9b73b81513cc468",
+        "type": "ui_text_input",
+        "z": "d620af3bbc13e015",
+        "name": "",
+        "label": "Admin ID:",
+        "tooltip": "",
+        "group": "403a2551653cf37b",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "mode": "password",
+        "delay": 300,
+        "topic": "payload",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "msg",
+        "x": 120,
+        "y": 140,
+        "wires": [
+            [
+                "5c37a8731480cd5a"
+            ]
+        ]
+    },
+    {
+        "id": "a2c00c51c506485e",
+        "type": "ui_text",
+        "z": "d620af3bbc13e015",
+        "group": "403a2551653cf37b",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "className": "",
+        "x": 1090,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "062a89405148fa7c",
+        "type": "change",
+        "z": "d620af3bbc13e015",
+        "name": "Summer",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Welcome Mrs. Summer Lo",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 900,
+        "y": 140,
+        "wires": [
+            [
+                "a2c00c51c506485e",
+                "f816845d7c0a8941"
+            ]
+        ]
+    },
+    {
+        "id": "720927fe52737865",
+        "type": "change",
+        "z": "d620af3bbc13e015",
+        "name": "Invalid!",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Invalid! Try again",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 900,
+        "y": 100,
+        "wires": [
+            [
+                "a2c00c51c506485e"
+            ]
+        ]
+    },
+    {
+        "id": "2aed111e1e831c13",
+        "type": "change",
+        "z": "d620af3bbc13e015",
+        "name": "Kelvin ",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Welcome Mrs. Kelvin Leung",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 890,
+        "y": 180,
+        "wires": [
+            [
+                "a2c00c51c506485e",
+                "f816845d7c0a8941"
+            ]
+        ]
+    },
+    {
+        "id": "0e77e6dbca8f8639",
+        "type": "change",
+        "z": "d620af3bbc13e015",
+        "name": "Kwan-yau",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Welcome Mrs. Kwan-yau Chan",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 900,
+        "y": 220,
+        "wires": [
+            [
+                "a2c00c51c506485e",
+                "f816845d7c0a8941"
+            ]
+        ]
+    },
+    {
+        "id": "fc0a90bef95bcab8",
+        "type": "change",
+        "z": "d620af3bbc13e015",
+        "name": "Cheuk-kin",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Welcome Mrs. Cheuk-kin CHEUNG ",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 900,
+        "y": 260,
+        "wires": [
+            [
+                "a2c00c51c506485e",
+                "f816845d7c0a8941"
+            ]
+        ]
+    },
+    {
+        "id": "26e3b6fd076254e5",
+        "type": "change",
+        "z": "d620af3bbc13e015",
+        "name": "CHANG Ka-ho",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Welcome Mrs. Ka-ho CHANG",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 920,
+        "y": 300,
+        "wires": [
+            [
+                "a2c00c51c506485e",
+                "f816845d7c0a8941"
+            ]
+        ]
+    },
+    {
+        "id": "f52b540c486a2061",
+        "type": "change",
+        "z": "d620af3bbc13e015",
+        "name": "Store maker id",
+        "rules": [
+            {
+                "t": "set",
+                "p": "maker_id",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 340,
+        "y": 440,
+        "wires": [
+            [
+                "1da2c0e659799175"
+            ]
+        ]
+    },
+    {
+        "id": "140dcf17c54b9ddf",
+        "type": "ui_text_input",
+        "z": "d620af3bbc13e015",
+        "name": "",
+        "label": "Maker ID:",
+        "tooltip": "",
+        "group": "4f1630d727134753",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "mode": "text",
+        "delay": "1000",
+        "topic": "payload",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "msg",
+        "x": 120,
+        "y": 440,
+        "wires": [
+            [
+                "f52b540c486a2061"
+            ]
+        ]
+    },
+    {
+        "id": "1da2c0e659799175",
+        "type": "function",
+        "z": "d620af3bbc13e015",
+        "name": "select record",
+        "func": "var id = flow.get(\"maker_id\");\n\nmsg.params = [id];\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 530,
+        "y": 440,
+        "wires": [
+            [
+                "efdd9ec8389984cd"
+            ]
+        ]
+    },
+    {
+        "id": "efdd9ec8389984cd",
+        "type": "postgrestor",
+        "z": "d620af3bbc13e015",
+        "name": "",
+        "query": "SELECT * FROM record WHERE id=$1;",
+        "postgresDB": "d37f48e234e2b6f4",
+        "output": true,
+        "outputs": 1,
+        "x": 710,
+        "y": 440,
+        "wires": [
+            [
+                "d473abee0af68eb2",
+                "1d790fb961b740ba"
+            ]
+        ]
+    },
+    {
+        "id": "fe2b3cade10a774b",
+        "type": "ui_text",
+        "z": "d620af3bbc13e015",
+        "group": "4f1630d727134753",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "text",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 1030,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "ba57c81067791e5d",
+        "type": "debug",
+        "z": "d620af3bbc13e015",
+        "name": "debug 8",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1040,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "d473abee0af68eb2",
+        "type": "json",
+        "z": "d620af3bbc13e015",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 870,
+        "y": 440,
+        "wires": [
+            [
+                "ba57c81067791e5d",
+                "fe2b3cade10a774b"
+            ]
+        ]
+    },
+    {
+        "id": "5fb915814a73cfde",
+        "type": "template",
+        "z": "d620af3bbc13e015",
+        "name": "",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "This is the payload: {{payload}} !",
+        "output": "str",
+        "x": 1150,
+        "y": 340,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "1d790fb961b740ba",
+        "type": "debug",
+        "z": "d620af3bbc13e015",
+        "name": "debug 9",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload.rows",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1040,
+        "y": 500,
+        "wires": []
+    }
+]
